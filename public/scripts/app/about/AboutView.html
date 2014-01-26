@@ -1,0 +1,27 @@
+<div class="row">
+    <p>
+        This 'page' was rendered without reloading everything from server. Cool
+        <span class="icon-thumbs-up"></span>
+    </p>
+
+    <p>
+        It uses AboutView.html for the view, and AboutView.js for the model.
+    </p>
+
+    <div class="well">
+        <h3>Dynamic Data</h3>
+        <p>
+            Here is some data that was loaded from an Ajax call:
+
+        <h3 data-bind="text: someMessage"></h3>
+        <h3 data-bind="text: anotherMessage"></h3>
+        </p>
+    </div>
+</div>
+
+<div class="row">
+    <a href="#/">
+        <span class="icon-circle-arrow-left"></span>
+        Go back the 'Home' view (without reloading from server)
+    </a>
+</div>

@@ -1,0 +1,11 @@
+{
+    "name": "node-knockout-durandal",
+    "author": "bestguy",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "*"
+    },
+    "engines": {
+        "node": "*"
+    }
+}=

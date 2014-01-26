@@ -1,0 +1,46 @@
+<!-- This markup will be inserted into the Shell.html where you see <div data-bind="router: ..."> -->
+<div class="row">
+    <p>
+        This 'page' uses HomeView.html for the <i>view</i> (html markup), <br>
+        and HomeView.js for the <i>model</i> (Javascript data and functions).
+    </p>
+
+    <div class="well">
+        <h3>Displaying Data</h3>
+
+        <p>The value of the 'rules' property will be displayed in this tag:</p>
+
+        <h2 data-bind="text: rules"></h2>
+
+        <p>Markup looks like:
+            <code>
+                &lt;h2 data-bind="text: rules"&gt;&lt;/h2&gt;
+            </code>
+        </p>
+    </div>
+
+
+    <div class="well">
+        <h3>Modifying Data</h3>
+
+        <p>The value of the 'rules' property in HomeView.js will be controlled by this input:</p>
+
+        <div>
+            1 <input type="range" min="1" max="20" data-bind="value: rules"/> 20
+        </div>
+
+        <p>Markup looks like:
+            <code>
+                &lt;input data-bind="value: rules"&gt;
+            </code>
+        </p>
+    </div>
+
+</div>
+
+<div class="row">
+    <a href="#/about">
+        Go to the 'About' view
+        <span class="icon-circle-arrow-right"></span>
+    </a>
+</div>

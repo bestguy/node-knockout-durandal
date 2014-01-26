@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>node.js, express, Knockout</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+
+    <div class="col-md-8 col-md-offset-2 text-center">
+        <h3>node.js, express, knockout</h3>
+        <p>All the content in white area is static.  The content in grey box below is dynamically rendered with Javascript:</p>
+
+        <!-- Durandal, by convention, looks for a tag with the ID 'applicationHost' to render itself in: -->
+        <div id="applicationHost">
+            <!--By convention, anything in here is displayed when loading or changing client views.  It will be hidden after a view renders: -->
+            <h1>Loading...</h1>
+        </div>
+    </div>
+
+</body>
+
+<!-- requirejs lets you define an application with single script tag, instead of a script tag for each Javascript file-->
+<script src="/scripts/lib/require/require.js" data-main="/scripts/app/main"></script>
+
+</html>
