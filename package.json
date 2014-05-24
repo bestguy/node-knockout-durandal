@@ -3,7 +3,7 @@
     "author": "bestguy",
     "version": "0.0.1",
     "dependencies": {
-        "express": "*"
+        "express": "3.x"
     },
     "engines": {
         "node": "*"
