@@ -18,7 +18,7 @@ app.get('/api/data', (req, resp) => {
         firstParameter: 'Hello World',
         anotherParameter: new Date()
     }
-    resp.send(200, data);
+    resp.send(data);
 });
 
 app.listen(3000, () => console.log('App running on port 3000'));
