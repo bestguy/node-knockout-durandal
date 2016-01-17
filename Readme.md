@@ -6,7 +6,7 @@
 
 - **node.js** - [http://nodejs.org/](http://nodejs.org/)
 	- Server-side Javascript engine.
-- **express 3** - [http://expressjs.com/](http://expressjs.com/)
+- **express** - [http://expressjs.com/](http://expressjs.com/)
 	- Web application framework for node.js
 
 ### Client-Side
@@ -19,7 +19,7 @@
 	- JavaScript application library built on Knockout and requirejs that adds advanced modules and view transition functionality.
 - **Bootstrap 3** - [http://getbootstrap.com/css/](http://getbootstrap.com/css/)
 	- CSS framework for responsive layout and grids.
-- **Font Awesome** - [http://fontawesome.io/3.2.1/](http://fontawesome.io/3.2.1/)
+- **Font Awesome** - [http://fontawesome.io/](http://fontawesome.io)
 	- Web font used for icons - avoids having to use images.
 
 ====
