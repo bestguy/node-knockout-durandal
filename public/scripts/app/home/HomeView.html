@@ -26,7 +26,7 @@
         <p>The value of the 'rules' property in HomeView.js will be controlled by this input:</p>
 
         <div>
-            1 <input type="range" min="1" max="20" data-bind="value: rules"/> 20
+            1 <input type="range" min="1" max="20" data-bind="value: rules,valueUpdate:'input'"/> 20
         </div>
 
         <p>Markup looks like:
@@ -41,6 +41,6 @@
 <div class="row">
     <a href="#/about">
         Go to the 'About' view
-        <span class="icon-circle-arrow-right"></span>
+        <i class="fa fa-arrow-circle-right"></i>
     </a>
 </div>

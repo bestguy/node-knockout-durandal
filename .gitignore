@@ -6,3 +6,4 @@
 .Trashes
 Icon?
 node_modules
+public/scripts/bower_components
