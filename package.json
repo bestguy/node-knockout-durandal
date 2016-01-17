@@ -1,11 +1,16 @@
 {
-    "name": "node-knockout-durandal",
-    "author": "bestguy",
-    "version": "0.0.1",
-    "dependencies": {
-        "express": "3.x"
-    },
-    "engines": {
-        "node": "*"
-    }
+  "name": "node-knockout-durandal",
+  "author": "bestguy",
+  "version": "0.0.1",
+  "scripts": {
+    "install": "bower install"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "morgan": "^1.6.1"
+  },
+  "engines": {
+    "node": "*"
+  }
 }

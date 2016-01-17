@@ -1,13 +1,16 @@
 'use strict';
+
+let bodyParser = require('body-parser');
 let express = require('express');
+let logger = require('morgan');
 
-let app = express();
+let app = new express();
 
-// Console logging for server:
-app.use(express.logger());
+// ## Middleware
 
-// Looks for static content under the current directory + /public:
+app.use(logger('dev'));
 app.use(express.static(`${__dirname}/public`));
+app.use(bodyParser.json());
 
 // This is a fake API call handler used in the client-code example
 app.get('/api/data', (req, resp) => {
